@@ -10,11 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7572444986467828114}
   - component: {fileID: 7572444986467828113}
-  - component: {fileID: 7572444986467828124}
-  - component: {fileID: 4790135046137013396}
   - component: {fileID: 7572444986467828112}
   - component: {fileID: 664914347163357220}
   - component: {fileID: 8551723403034924589}
+  - component: {fileID: 4790135046137013396}
   m_Layer: 0
   m_Name: LimpaLingua
   m_TagString: Limpadores
@@ -84,31 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7572444986467828124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7572444986467828119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 980b96e91b9c4f74bba7e99f08f4842c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  preco: 125
---- !u!114 &4790135046137013396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7572444986467828119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41b295810ea68f5418550c4f9b23941d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &7572444986467828112
 Animator:
   serializedVersion: 3
@@ -175,3 +149,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4790135046137013396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7572444986467828119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b295810ea68f5418550c4f9b23941d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
