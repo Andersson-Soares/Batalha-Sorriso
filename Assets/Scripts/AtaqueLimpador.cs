@@ -9,7 +9,7 @@ public class AtaqueLimpador : MonoBehaviour
     {
         if(outros.gameObject.CompareTag("Carie"))
         {
-           transform.position = Vector3.Lerp (transform.position,new Vector3 (5,5,5), Time.deltaTime);
+           //transform.position = Vector3.Lerp (transform.position,new Vector3 (5,5,5), Time.deltaTime);
                 Destroy(outros.gameObject);
         }
 
