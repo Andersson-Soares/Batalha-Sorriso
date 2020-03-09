@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c372c87a811a220479028de8cff92a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5855091487262968989, guid: 86c8c73505309d048b596ab4d98ac59b, type: 3}
+  prefab: {fileID: 8848571163310925560, guid: a3897ec1ec79ada47a4ff07566c9453c, type: 3}
   interval: 2
 --- !u!95 &1820055930868278181
 Animator:

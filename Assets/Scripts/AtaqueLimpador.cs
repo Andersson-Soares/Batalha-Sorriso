@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class AtaqueLimpador : MonoBehaviour
 {
-   
+    public float velocity;
+
     void OnCollisionEnter2D(Collision2D outros)
     {
         if(outros.gameObject.CompareTag("Carie"))
         {
-           //transform.position = Vector3.Lerp (transform.position,new Vector3 (5,5,5), Time.deltaTime);
-                Destroy(outros.gameObject);
-        }
+            GetComponent<Rigidbody2D>().velocity = new Vector2(velocity, 0);
+            Destroy(outros.gameObject);
 
+            Destroy(gameObject, 12f);
+        }
     }
 }
