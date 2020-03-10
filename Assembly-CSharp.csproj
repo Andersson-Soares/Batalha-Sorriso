@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\CremeColetor.cs" />
      <Compile Include="Assets\Scripts\CremeSpawn.cs" />
      <Compile Include="Assets\Scripts\DiparoControle.cs" />
+     <Compile Include="Assets\Scripts\GerenciaAudio.cs" />
      <Compile Include="Assets\Scripts\InfoPersonagem.cs" />
      <Compile Include="Assets\Scripts\Life.cs" />
      <Compile Include="Assets\Scripts\MainJogo.cs" />

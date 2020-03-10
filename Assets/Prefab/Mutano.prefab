@@ -145,6 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tamanhoVida: 20
+  EfeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+    type: 3}
 --- !u!114 &114310515485049718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 141247e04bb98a54b9b89bb1a480e3b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: -0.5
+  velocity: -0.1
 --- !u!114 &114362465891858948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd12babf962d09d48abadb72c1ef194e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  latencia: 1.4
+  latencia: 1
   dano: 1
 --- !u!95 &95706496013505522
 Animator:

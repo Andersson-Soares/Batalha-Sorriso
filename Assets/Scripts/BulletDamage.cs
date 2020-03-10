@@ -12,6 +12,7 @@ public class BulletDamage : MonoBehaviour
         if (col.tag == "Carie")
         {
             col.GetComponent<Life>().doDamage(dano);
+            GerenciaAudio.instance.SonsFXToca (1);
             Destroy(gameObject);
         }
     }

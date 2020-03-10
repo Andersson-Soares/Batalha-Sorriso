@@ -9,6 +9,7 @@ public class CremeColetor : MonoBehaviour {
 	void OnMouseDown(){
 		cremeDisponivel += 25;
         print(cremeDisponivel);
+		GerenciaAudio.instance.SonsFXToca (0);
 		Destroy (gameObject);
 	}
 }

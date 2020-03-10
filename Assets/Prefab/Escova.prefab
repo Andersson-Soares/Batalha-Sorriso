@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tamanhoVida: 10
+  EfeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+    type: 3}
 --- !u!114 &114854494398657944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1779421970869048, guid: 452dac0253c7ee94493bc60c75a0626d, type: 3}
-  interval: 0.5
+  interval: 1
 --- !u!95 &95547253848973210
 Animator:
   serializedVersion: 3

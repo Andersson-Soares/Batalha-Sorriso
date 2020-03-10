@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3107718237975748282, guid: 86c8c73505309d048b596ab4d98ac59b,
+        type: 3}
+      propertyPath: dano
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4884788189035655674, guid: 86c8c73505309d048b596ab4d98ac59b,
         type: 3}
       propertyPath: m_Color.r
