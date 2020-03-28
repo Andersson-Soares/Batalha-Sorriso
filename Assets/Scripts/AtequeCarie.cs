@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class AtequeCarie : MonoBehaviour
 {
     [SerializeField]
@@ -16,7 +17,7 @@ public class AtequeCarie : MonoBehaviour
     {
         if (con.gameObject.tag == "Limpadores")
         {
-            //GetComponent<Animator> ().SetTrigger ("isAttacking");
+        
             if ((currentTime += Time.deltaTime) >= latencia)
             {
                 con.gameObject.GetComponent<Life>().doDamage(dano);
