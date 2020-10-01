@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe58d47d4c023e047a31abff3b1bdfaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 30
+  maxTime: 150
   winPainel: {fileID: 1200941976}
 --- !u!1001 &142006646
 PrefabInstance:
@@ -1806,7 +1806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &481590220
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4245,7 +4245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &938089746
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6831,7 +6831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1466548748
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8018,6 +8018,11 @@ PrefabInstance:
     - target: {fileID: 4046457694178866, guid: ac4fca40e9870904ebc4777f79eb8a4b, type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114303220399724922, guid: ac4fca40e9870904ebc4777f79eb8a4b,
+        type: 3}
+      propertyPath: velocity
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 212282523492718652, guid: ac4fca40e9870904ebc4777f79eb8a4b,
         type: 3}
@@ -9967,7 +9972,7 @@ PrefabInstance:
     - target: {fileID: 7576388587446564966, guid: d761141808559db40b68d7dcc69863d9,
         type: 3}
       propertyPath: velocity
-      value: -0.1
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8583158237798511098, guid: d761141808559db40b68d7dcc69863d9,
         type: 3}

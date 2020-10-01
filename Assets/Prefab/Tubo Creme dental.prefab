@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1267834026767886, guid: 930eadc9d1b11e342a0b45f452d51c86, type: 3}
-  tempoSpawn: 10
+  tempoSpawn: 5
 --- !u!114 &114977077254538498
 MonoBehaviour:
   m_ObjectHideFlags: 0

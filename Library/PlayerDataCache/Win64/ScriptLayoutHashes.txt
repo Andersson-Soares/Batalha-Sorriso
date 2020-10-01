@@ -5,21 +5,7 @@ SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Informacao.unity
 Assets/Scenes/Nivel1.unity
-Assets/Scenes/Nivel2.unity
-Assets/Scenes/Nivel3.unity
-Assets/Scenes/Nivel4.unity
-Assets/Scenes/Nivel5.unity
-Assets/Scenes/Nivel6.unity
-Assets/Scenes/Nivel7.unity
-Assets/Scenes/Nivel8.unity
 Assets/Scenes/PreNivel1.unity
-Assets/Scenes/PreNivel2.unity
-Assets/Scenes/PreNivel3.unity
-Assets/Scenes/PreNivel4.unity
-Assets/Scenes/PreNivel5.unity
-Assets/Scenes/PreNivel6.unity
-Assets/Scenes/PreNivel7.unity
-Assets/Scenes/PreNivel8.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
