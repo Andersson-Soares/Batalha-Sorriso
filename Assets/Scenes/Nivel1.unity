@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe58d47d4c023e047a31abff3b1bdfaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 150
+  maxTime: 120
   winPainel: {fileID: 1200941976}
 --- !u!1001 &142006646
 PrefabInstance:

@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/ander/Desktop/Smile/Battle of the Smile 0.2.exe
+C:/Users/ander/Desktop/Smile/Batalha do Sorriso.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Informacao.unity
