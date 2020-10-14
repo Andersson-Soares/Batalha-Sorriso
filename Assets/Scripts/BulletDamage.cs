@@ -16,4 +16,12 @@ public class BulletDamage : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void Update()
+    {
+        if(gameObject.transform.position.x - 0.5f > GameObject.Find("QuadradoBase (42)").transform.position.x)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
