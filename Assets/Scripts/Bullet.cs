@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
-    public float velocidade = 2;
-    public int dano = 1;
+    [SerializeField]
+    private float velocidade = 2;
+    [SerializeField]
+    private int dano = 1;
 
     private Rigidbody2D body;
 
@@ -33,7 +34,7 @@ public class Bullet : MonoBehaviour
     {
         if (col.tag == "Carie")
         {
-            col.GetComponent<Life>().doDamage(dano);
+            col.GetComponent<Carie>().doDamage(dano);
             GerenciaAudio.instance.SonsFXToca(1);
             Destroy(gameObject);
         }

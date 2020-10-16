@@ -7648,6 +7648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: latencia
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1442112885346116, guid: 637f708c3593d834ca05fd5f214640df, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7683,11 +7687,6 @@ PrefabInstance:
     - target: {fileID: 4280143895024284, guid: 637f708c3593d834ca05fd5f214640df, type: 3}
       propertyPath: m_RootOrder
       value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114419834932418514, guid: 637f708c3593d834ca05fd5f214640df,
-        type: 3}
-      propertyPath: latencia
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 637f708c3593d834ca05fd5f214640df, type: 3}
@@ -8019,6 +8018,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: velocity
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1558283813425614, guid: ac4fca40e9870904ebc4777f79eb8a4b, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -8058,11 +8061,6 @@ PrefabInstance:
     - target: {fileID: 4046457694178866, guid: ac4fca40e9870904ebc4777f79eb8a4b, type: 3}
       propertyPath: m_RootOrder
       value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 114303220399724922, guid: ac4fca40e9870904ebc4777f79eb8a4b,
-        type: 3}
-      propertyPath: velocity
-      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 212282523492718652, guid: ac4fca40e9870904ebc4777f79eb8a4b,
         type: 3}
@@ -9924,6 +9922,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: velocity
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: loserPainel
+      value: 
+      objectReference: {fileID: 1628430882}
     - target: {fileID: 1477999920001919555, guid: d761141808559db40b68d7dcc69863d9,
         type: 3}
       propertyPath: m_Name
@@ -10014,16 +10020,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7576388587446564966, guid: d761141808559db40b68d7dcc69863d9,
-        type: 3}
-      propertyPath: velocity
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8583158237798511098, guid: d761141808559db40b68d7dcc69863d9,
-        type: 3}
-      propertyPath: loserPainel
-      value: 
-      objectReference: {fileID: 1628430882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d761141808559db40b68d7dcc69863d9, type: 3}
 --- !u!1001 &7572444987236085732
