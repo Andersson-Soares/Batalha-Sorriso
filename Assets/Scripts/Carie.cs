@@ -40,11 +40,6 @@ public class Carie : MonoBehaviour
             GameObject objMorte = Instantiate(efeitoMorte, transform.position, transform.rotation);
             GerenciaAudio.instance.SonsFXToca (2);
             Destroy(objMorte, 0.4f);
-            //se nesse gameObject tem o componente infoPersonagem (que só existe nos personagens)
-            if(GetComponent<InfoPersonagem>() != null){
-                //entao pego o quadrado em que ele está e digo que ele está vazio antes de destruir este gameObject
-                GetComponent<InfoPersonagem>().quadradoCampoBatalha.transform.GetComponent<SessaoLingua>().isVazio = true;
-            }
             Destroy(gameObject);
         }
     }

@@ -9,10 +9,10 @@ public class MainJogo : MonoBehaviour {
 	public Text cremeColetado;
 
     public Image[] asd;
-	public static InfoPersonagem personagemSelecionado;
+	public static Personagem personagemSelecionado;
 
 	void Update(){
-		cremeColetado.text = ""+CremeColetor.cremeDisponivel;
+		cremeColetado.text = "" + CremeColetor.cremeDisponivel;
 	}
 	/*
 	public static void setPersonagemSelecionado(InfoPersonagem p){

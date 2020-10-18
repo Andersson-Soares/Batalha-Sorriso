@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 1820055930868278187}
   - component: {fileID: 1820055930868278186}
   - component: {fileID: 1761473348788129470}
-  - component: {fileID: 1820055930868278185}
-  - component: {fileID: 1820055930868278184}
-  - component: {fileID: 2105110313508658298}
+  - component: {fileID: 114199424618642532}
   - component: {fileID: 1820055930868278181}
   m_Layer: 10
   m_Name: Enxaguante
@@ -110,7 +108,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.22}
   m_EdgeRadius: 0
---- !u!114 &1820055930868278185
+--- !u!114 &114199424618642532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,37 +117,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820055930868278183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 980b96e91b9c4f74bba7e99f08f4842c, type: 3}
+  m_Script: {fileID: 11500000, guid: b450e12fe3a8c4346ab8d47ad1c5c928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   preco: 100
---- !u!114 &1820055930868278184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820055930868278183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3bfe63baf135d4a8264ec9a08a0a35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tamanhoVida: 20
-  EfeitoMorte: {fileID: 0}
---- !u!114 &2105110313508658298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820055930868278183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c372c87a811a220479028de8cff92a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8848571163310925560, guid: a3897ec1ec79ada47a4ff07566c9453c, type: 3}
+  posicao: {fileID: 0}
+  vida: 20
+  efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+    type: 3}
+  bullet: {fileID: 8848571163310925560, guid: a3897ec1ec79ada47a4ff07566c9453c, type: 3}
   interval: 2
 --- !u!95 &1820055930868278181
 Animator:

@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 7964373229307604264}
   - component: {fileID: 7964373229307604267}
   - component: {fileID: 7964373229307604279}
-  - component: {fileID: 7964373229307604278}
-  - component: {fileID: 7964373229307604265}
-  - component: {fileID: 3379170066529694895}
+  - component: {fileID: 114769107252412526}
   - component: {fileID: 7964373229307604266}
   m_Layer: 10
   m_Name: Fio Dental
@@ -110,7 +108,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7964373229307604278
+--- !u!114 &114769107252412526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,38 +117,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7964373229307604269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 980b96e91b9c4f74bba7e99f08f4842c, type: 3}
+  m_Script: {fileID: 11500000, guid: b450e12fe3a8c4346ab8d47ad1c5c928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   preco: 125
---- !u!114 &7964373229307604265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7964373229307604269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3bfe63baf135d4a8264ec9a08a0a35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tamanhoVida: 15
-  EfeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+  posicao: {fileID: 0}
+  vida: 15
+  efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
     type: 3}
---- !u!114 &3379170066529694895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7964373229307604269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c372c87a811a220479028de8cff92a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 2906220127420829877, guid: b46c08e145059d448b7cf4569adb233a, type: 3}
+  bullet: {fileID: 2906220127420829877, guid: b46c08e145059d448b7cf4569adb233a, type: 3}
   interval: 1
 --- !u!95 &7964373229307604266
 Animator:

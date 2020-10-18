@@ -16,7 +16,7 @@ public class SessaoLingua : MonoBehaviour {
 			CremeColetor.cremeDisponivel -= MainJogo.personagemSelecionado.preco;
 			MainJogo.personagemSelecionado = null;
 			isVazio = false;
-			obj.GetComponent<InfoPersonagem>().quadradoCampoBatalha = gameObject;
+			obj.GetComponent<Personagem>().posicao = gameObject;
 		}
 	}
 }

@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 4932192289350374}
   - component: {fileID: 212253477455053230}
   - component: {fileID: 61733509231488464}
-  - component: {fileID: 114045937788526930}
-  - component: {fileID: 114284234341016392}
-  - component: {fileID: 114854494398657944}
+  - component: {fileID: 114081651717176964}
   - component: {fileID: 95547253848973210}
   m_Layer: 10
   m_Name: Escova
@@ -110,7 +108,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6044864, y: 1.1886859}
   m_EdgeRadius: 0
---- !u!114 &114045937788526930
+--- !u!114 &114081651717176964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,38 +117,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528868084206248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 980b96e91b9c4f74bba7e99f08f4842c, type: 3}
+  m_Script: {fileID: 11500000, guid: b450e12fe3a8c4346ab8d47ad1c5c928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   preco: 100
---- !u!114 &114284234341016392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528868084206248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3bfe63baf135d4a8264ec9a08a0a35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tamanhoVida: 10
-  EfeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+  posicao: {fileID: 0}
+  vida: 10
+  efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
     type: 3}
---- !u!114 &114854494398657944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528868084206248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c372c87a811a220479028de8cff92a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1779421970869048, guid: 452dac0253c7ee94493bc60c75a0626d, type: 3}
+  bullet: {fileID: 1779421970869048, guid: 452dac0253c7ee94493bc60c75a0626d, type: 3}
   interval: 1
 --- !u!95 &95547253848973210
 Animator:

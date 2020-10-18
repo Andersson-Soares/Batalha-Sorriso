@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 4720271429017292}
   - component: {fileID: 212660077241532650}
   - component: {fileID: 61467009837707200}
-  - component: {fileID: 114673718297102168}
-  - component: {fileID: 114202661248821012}
-  - component: {fileID: 114977077254538498}
+  - component: {fileID: 114703366687407748}
   - component: {fileID: 95780059239119110}
   m_Layer: 10
   m_Name: Tubo Creme dental
@@ -110,7 +108,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.45086765, y: 1.1563995}
   m_EdgeRadius: 0
---- !u!114 &114673718297102168
+--- !u!114 &114703366687407748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,39 +117,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1244582579287830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3bfe63baf135d4a8264ec9a08a0a35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tamanhoVida: 5
-  EfeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
-    type: 3}
---- !u!114 &114202661248821012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244582579287830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 375c39a2e3773954e9a195f3de9104ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1267834026767886, guid: 930eadc9d1b11e342a0b45f452d51c86, type: 3}
-  tempoSpawn: 5
---- !u!114 &114977077254538498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244582579287830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 980b96e91b9c4f74bba7e99f08f4842c, type: 3}
+  m_Script: {fileID: 11500000, guid: b450e12fe3a8c4346ab8d47ad1c5c928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   preco: 50
+  posicao: {fileID: 0}
+  vida: 5
+  efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
+    type: 3}
+  prefab: {fileID: 1267834026767886, guid: 930eadc9d1b11e342a0b45f452d51c86, type: 3}
+  interval: 5
 --- !u!95 &95780059239119110
 Animator:
   serializedVersion: 3
