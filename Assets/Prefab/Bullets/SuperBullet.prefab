@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 114226445859654040}
   m_Layer: 10
   m_Name: SuperBullet
-  m_TagString: Limpadores
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

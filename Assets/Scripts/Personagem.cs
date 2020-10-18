@@ -57,7 +57,7 @@ public class Personagem : MonoBehaviour
         {
             GameObject EfeitoMorte = Instantiate(efeitoMorte, transform.position, transform.rotation);
             GerenciaAudio.instance.SonsFXToca(2);
-            Destroy(efeitoMorte, 0.4f);
+            Destroy(EfeitoMorte, 1f);
             posicao.transform.GetComponent<SessaoLingua>().isVazio = true;
             Destroy(gameObject);
         }

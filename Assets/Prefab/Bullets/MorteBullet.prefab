@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MorteBullet
       objectReference: {fileID: 0}
+    - target: {fileID: 5855091487262968989, guid: 86c8c73505309d048b596ab4d98ac59b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6233456843665226103, guid: 86c8c73505309d048b596ab4d98ac59b,
         type: 3}
       propertyPath: m_LocalPosition.x
