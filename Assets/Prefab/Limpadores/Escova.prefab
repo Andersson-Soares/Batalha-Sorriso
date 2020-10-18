@@ -125,7 +125,7 @@ MonoBehaviour:
   vida: 10
   efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
     type: 3}
-  bullet: {fileID: 1779421970869048, guid: 452dac0253c7ee94493bc60c75a0626d, type: 3}
+  prefab: {fileID: 1779421970869048, guid: 452dac0253c7ee94493bc60c75a0626d, type: 3}
   interval: 1
 --- !u!95 &95547253848973210
 Animator:

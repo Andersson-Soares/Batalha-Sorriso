@@ -7,6 +7,6 @@ public class ScenesControle : MonoBehaviour {
 
 	public void irParaScenne(string nomeScenne)
     {
-        SceneManager.LoadScene(nomeScenne, LoadSceneMode.Single);
+        SceneManager.LoadScene(nomeScenne);
     }
 }

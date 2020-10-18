@@ -44,15 +44,17 @@ public class Carie : MonoBehaviour
         }
     }
 
-    void onCollisionStay(Collision other)
+    void onCollisionEnter2D(Collision2D other)
     {
+        Debug.Log(other.gameObject.tag);
         if(other.gameObject.tag == "Limpadores")
         {
             currentTime += Time.deltaTime;
             if(currentTime >= latencia)
             {
                 currentTime = 0;
-                other.gameObject.GetComponent<Life>().doDamage(dano);
+                Debug.Log("estou batendo no personagem");
+                other.gameObject.GetComponent<Personagem>().doDamage(dano);
             }
         }
         else if(other.gameObject.name == "Fim")

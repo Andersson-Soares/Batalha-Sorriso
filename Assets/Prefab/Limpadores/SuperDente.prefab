@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6052055340168798110
 Transform:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   vida: 30
   efeitoMorte: {fileID: 2922476405397911688, guid: 71d9c8fbeb877224c808faf6402a6fa5,
     type: 3}
-  bullet: {fileID: 5855091487262968989, guid: 86c8c73505309d048b596ab4d98ac59b, type: 3}
+  prefab: {fileID: 5855091487262968989, guid: 86c8c73505309d048b596ab4d98ac59b, type: 3}
   interval: 0.5
 --- !u!61 &6052055340168798097
 BoxCollider2D:
