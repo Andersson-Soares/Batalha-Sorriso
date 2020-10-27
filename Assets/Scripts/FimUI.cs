@@ -16,7 +16,7 @@ public class FimUI : MonoBehaviour
     {
         if(outros.gameObject.CompareTag("Carie"))
         {
-             losePainel.SetActive (true);
+            losePainel.SetActive (true);
         }
     }
 }

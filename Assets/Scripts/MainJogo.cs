@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MainJogo : MonoBehaviour {
-
-
 	public Text cremeColetado;
 
     public Image[] asd;

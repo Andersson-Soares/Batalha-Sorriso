@@ -18,7 +18,6 @@ public class TempoFase : MonoBehaviour
         winPainel.SetActive (false);
         BarraQuanTime = GetComponent<Image> ();
         timeLeft = maxTime;
-
     }
 
     void Update()
