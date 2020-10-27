@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 50115380786882030}
   - component: {fileID: 114363276868694684}
   - component: {fileID: 95209448180960128}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Staphy
   m_TagString: Carie
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 50283081443217802}
   - component: {fileID: 114960470917547796}
   - component: {fileID: 95706496013505522}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Mutano
   m_TagString: Carie
   m_Icon: {fileID: 0}

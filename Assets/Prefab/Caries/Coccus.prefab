@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2860224817378256224}
   - component: {fileID: 114017803997423160}
   - component: {fileID: 5162445840434067987}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Coccus
   m_TagString: Carie
   m_Icon: {fileID: 0}

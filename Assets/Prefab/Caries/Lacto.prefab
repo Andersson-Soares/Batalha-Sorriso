@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 50857327797772022}
   - component: {fileID: 114581531145335706}
   - component: {fileID: 95125462179396164}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Lacto
   m_TagString: Carie
   m_Icon: {fileID: 0}

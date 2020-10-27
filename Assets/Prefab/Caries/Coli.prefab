@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114759338509637186}
   - component: {fileID: 95993290363649242}
   - component: {fileID: 7986021472828649976}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Coli
   m_TagString: Carie
   m_Icon: {fileID: 0}
