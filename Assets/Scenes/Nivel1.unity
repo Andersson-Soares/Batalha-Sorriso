@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &28973030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -671,6 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &85034713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1149,6 +1151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &276944182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1255,6 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &285957540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1361,6 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &367018560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1668,6 +1673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &439292235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1774,6 +1780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &469874480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2019,6 +2026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &521748575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2125,6 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &584196791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2428,6 +2437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &618113990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2534,6 +2544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &619888771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2640,6 +2651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &628855519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2746,6 +2758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &654905502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2852,6 +2865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &658430414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2958,6 +2972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &674378132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3191,6 +3206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &724276417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3356,6 +3372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &744796225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3462,6 +3479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &769449027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3568,6 +3586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &772373723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3674,6 +3693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &778418231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3780,6 +3800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &809440357
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4030,6 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &865372035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4213,6 +4235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &926466011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4669,6 +4692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1014342734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4907,6 +4931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1086520447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5214,6 +5239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1165574471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5320,6 +5346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1166404705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5426,6 +5453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1171217996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5532,6 +5560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1187693954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5808,6 +5837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1222413711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5914,6 +5944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1240370854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6316,6 +6347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1274740971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6422,6 +6454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1281302769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6528,6 +6561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1284747622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6693,6 +6727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1407709510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6799,6 +6834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1444318519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7121,6 +7157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1533541253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7747,6 +7784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1712188175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7853,6 +7891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1720380319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7959,6 +7998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1741231933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8139,6 +8179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1772371958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8369,6 +8410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1803049094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8689,6 +8731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &1964290277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8822,7 +8865,7 @@ GameObject:
   m_Layer: 0
   m_Name: GerenciaAudio
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9148,6 +9191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &2055926451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9469,6 +9513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdc49a83080cee409d099420b894b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVazio: 0
 --- !u!65 &2133542003
 BoxCollider:
   m_ObjectHideFlags: 0

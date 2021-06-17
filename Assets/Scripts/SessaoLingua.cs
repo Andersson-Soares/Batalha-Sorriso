@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SessaoLingua : MonoBehaviour {
 
-	private bool isVazio;
+	public bool isVazio;
 
 	void Start(){
 		isVazio = true;
@@ -12,10 +12,11 @@ public class SessaoLingua : MonoBehaviour {
 
 	void OnMouseUpAsButton(){
 		if (MainJogo.personagemSelecionado != null && isVazio) {
-			Instantiate (MainJogo.personagemSelecionado.gameObject, transform.position, Quaternion.identity);
+			GameObject obj = Instantiate (MainJogo.personagemSelecionado.gameObject, transform.position, Quaternion.identity);
 			CremeColetor.cremeDisponivel -= MainJogo.personagemSelecionado.preco;
 			MainJogo.personagemSelecionado = null;
 			isVazio = false;
+			obj.GetComponent<InfoPersonagem>().quadradoCampoBatalha = gameObject;
 		}
 	}
 }

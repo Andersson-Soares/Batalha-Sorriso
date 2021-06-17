@@ -35,7 +35,7 @@ public class ControleInimigoSpawn : MonoBehaviour
         tempoAtual = 0;
         proximoSpawn = Random.Range(menorTempo, maiorTempo) / 1000f;
         y = (posicoes[Random.Range(0, posicoes.Length)]).transform.position.y;
-        GameObject tempPrefab = Instantiate(inimigo[Random.RandomRange(0,inimigo.Length)]) as GameObject;
+        GameObject tempPrefab = Instantiate(inimigo[Random.Range(0,inimigo.Length)]) as GameObject;
         tempPrefab.transform.position = new Vector3(transform.position.x, y, tempPrefab.transform.position.z);
     }
 }

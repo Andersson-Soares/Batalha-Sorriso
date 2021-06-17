@@ -5,4 +5,6 @@ using UnityEngine;
 public class InfoPersonagem : MonoBehaviour {
 
 	public int preco;
+
+	public GameObject quadradoCampoBatalha;
 }
